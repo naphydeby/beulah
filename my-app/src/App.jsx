@@ -1,22 +1,16 @@
 import React, { useEffect } from "react";
 import './App.css'
-import Signin from "./Component/Signin";
+// import Signin from "./Component/Signin";
+import Userpg1 from "./Component/Userpg1";
 
  
 
 
 function App (){
-// useEffect(()=>{
-//   document.body.style.backgroundColor = "#EBEBEB";
-//   document.body.style.margin = 0;
-//   document.body.style.fontFamily = 'Avenir';
-  
-  
-// },[])
   return(
     <>
-    
-<Signin/>
+    <Userpg1/>
+{/* <Signin/> */}
     </>
   )
 }
