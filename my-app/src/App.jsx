@@ -3,28 +3,13 @@
 
 
 import {  useEffect } from 'react'
-import {BrowserRouter,Route, Routes} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 import Sidenav from './component/Sidenav.jsx';
 import Home from './component/Pages/Home.jsx';
 import Membership from './component/Pages/Membership.jsx';
 import Userpage from './component/Pages/Userpage.jsx';
 import Signin from './component/Signin/Signin.jsx';
-
-
-
-
-// import Home from './component/Pages/Home.jsx';
-// import Membership from './component/Pages/Membership.jsx';
-// import Userpage from './component/Pages/Userpage.jsx';
-
-
-
-
-
-
-
-
-
+import Userpage1 from './component/Pages/Userpage1.jsx';
 
 function App() {
   useEffect(()=>{
@@ -44,23 +29,14 @@ function App() {
       <Route path='/membership' element={<Membership/>} />
       <Route path='/userpage' element={<Userpage/>} />
       <Route path='/signin' element={<Signin/>} />
+      <Route path='/userpage1' element={<Userpage1/>} />
       </Routes>
        
       
        
       
       
-      
-      {/* <Signin/>
-        <Sidebar/>
-        
-        <Routes>
-        
-          <Route path='/' element={<Home/>} />
-          <Route path='/membership' element={<Membership/>} />
-          <Route path='/userpage' element={<Userpage/>} />
-        </Routes>
-         */}
+     
       
     </div>
   )
@@ -80,24 +56,9 @@ export default App
 
 
 
-// import React, { useEffect } from "react";
-// import './App.css'
-// import Signin from "./Component/Signin"
-// import Userpg1 from "./Component/Userpg1"
-
 
  
 
-
-// function App (){
-//   return(
-//     <>
-//     {/* <Userpg1/> */}
-// <Signin/>
-//     </>
-//   )
-// }
-// export default App
 
 
 

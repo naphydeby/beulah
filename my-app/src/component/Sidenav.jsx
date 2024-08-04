@@ -58,7 +58,7 @@ const Sidenav = () => {
           </div>
 
           <div>
-            <NavLink 
+            <NavLink to='/userpage1'
               className={`flex items-center gap-4 font-[500] pl-2 `}
             >
               <img className='size-8' src="./image/users.png" alt="users-image" />

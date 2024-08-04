@@ -10,8 +10,8 @@ const Membership = () => {
         <h1 className="text-[#222222] font-[Avenir] text-[48px] font-[800]">
           Membership Applications
         </h1>
-        <div className="w-[99%] h-[100%] bg-white mt-2 rounded-md">
-          <div className="flex justify-between pt-6">
+        <div className="w-[80vw]  bg-white mt-2 rounded-md">
+          <div className="flex  pt-6">
             <div className="flex items-center ml-4  w-[175px] h-[37px] border border-none bg-[#EBEBEB] border-black rounded-[5px] pl-2">
               <img className='size-4' src="./image/search-interface-symbol.png" alt="search-image" />
 
@@ -21,7 +21,7 @@ const Membership = () => {
                 className="   bg-transparent w-[140px] ml-2 border border-none  focus:outline-none "
               />
             </div>
-            <img className='cursor-pointer size-6 mr-6' src="./image/sort (1).png" alt="filter" />
+            <img className='cursor-pointer size-6 ml-[880px]' src="./image/sort (1).png" alt="filter" />
           </div>
           <table className="mt-6 mx-4 border-collapse text-[12px] font-[600] text-[#303030] ">
             <thead>
