@@ -42,7 +42,7 @@ function Signin() {
           </div>
         </div>
 
-        <div className="w-[40vw] h-[100%] bg-white pt-[140px] px-[80px]">
+        <div className="w-[40vw] h-[100%] bg-white pt-[100px] px-[80px]">
           <h1 className="text-[32px] font-[800] font-[Avenir]">
             Welcome, Admin
           </h1>
