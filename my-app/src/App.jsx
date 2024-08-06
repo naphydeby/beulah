@@ -8,8 +8,9 @@ import Sidenav from './component/Sidenav.jsx';
 import Home from './component/Pages/Home.jsx';
 import Membership from './component/Pages/Membership.jsx';
 import Userpage from './component/Pages/Userpage.jsx';
-import Signin from './component/Signin/Signin.jsx';
 import Userpage1 from './component/Pages/Userpage1.jsx';
+import Signin from './component/Signin/Signin.jsx';
+import Superadminsignin from './component/Signin/Superadminsignin';
 
 function App() {
   useEffect(()=>{
@@ -23,15 +24,18 @@ function App() {
       <Sidenav/>
       {/* sign for a seperate page */}
       {/* <Signin/> */}
+      {/* <Superadminsignin/> */}
       
        <Routes>
+        
       <Route path='/' element={<Home/>} />
       <Route path='/membership' element={<Membership/>} />
       <Route path='/userpage' element={<Userpage/>} />
-      <Route path='/signin' element={<Signin/>} />
+    
       <Route path='/userpage1' element={<Userpage1/>} />
-      </Routes>
-       
+    
+      </Routes>  
+        
       
        
       

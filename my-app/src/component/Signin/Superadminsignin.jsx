@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Validation from "./Validation";
 
-function Signin() {
+function Superadminsignin() {
   const [form, setForm] = useState({
     username: "",
     password: "",
@@ -20,32 +20,10 @@ function Signin() {
   };
   return (
     <>
-      <div className="w-[100vw] h-[100vh]  flex  ">
-        <div
-          className="w-[60vw] h-[100%] pt-[21%]"
-          style={{
-            background:
-              "linear-gradient(180deg, #318ABE 0%,#0D4363 84.79%, #06344E 100%)",
-          }}
-        >
-          <div className=" flex pl-16 gap-[16px] items-center text-white ">
-            <img src="./image/Beual-logo.png" className="w-[50px] h-[50px]" />
-            <p className="font-[800] text-[32px] font-[Avenir] ">
-              Beaulah Destiny Club
-            </p>
-          </div>
-          <br />
-
-          <div className="flex -mt-4 ">
-            
-            <p className="lg:w-[250px] xl:w-[300px] 2xl:w-[350px] border-[#e2e0e0] -ml-10  lg:h-[250px] xl:h-[300px] 2xl:h-[345px] mt-8 border-[1px] border-b-0  border-l-0 b bg-transparent rounded-[360px]"></p>
-            <p className="lg:w-[250px] xl:w-[300px] 2xl:w-[345px] border-[#e2e0e0] -ml-[40%] lg:h-[250px] xl:h-[300px] 2xl:h-[355px] border-[1px] border-b-0  border-l-0 b bg-transparent rounded-[355px]"></p> 
-          </div>
-        </div>
-
-        <div className="w-[40vw] h-[100%] bg-white pt-[100px] px-[80px]">
+     
+        <div className="w-[50vw] h-[530px]  mt-[40px] ml-[250px]  bg-white pt-[100px] lg:pt-[80px] px-[80px] rounded-[4px] ">
           <h1 className="text-[32px] font-[800] font-[Avenir]">
-            Welcome, Admin
+            Welcome, Super Admin
           </h1>
           <p className="text-[16px] font-[350] text-gray-400 mt-2">
             Please enter your details
@@ -93,16 +71,16 @@ function Signin() {
               
             </p>
 
-          <a href="Membership">  <button
+           <button
               type="submit"
               className="w-[120px] h-[45px] text-[18px] pl-1 font-[800] mt-[20px] float-right bg-[#06476D] text-white rounded-[10px] "
             >
               Sign In
-            </button></a>
+            </button>
           </form>
         </div>
-      </div>
+      
     </>
   );
 }
-export default Signin;
+export default Superadminsignin;

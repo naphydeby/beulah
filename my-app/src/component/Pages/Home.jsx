@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 
 
 
@@ -62,7 +63,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className='flex items-center ml-12 gap-24'>
+          <div className='flex items-center xl:ml-10  2xl:ml-12 lg:ml-8 2xl:gap-24 xl:gap-20 lg:gap-12'>
             <p>Aug</p>
             <p>Sep</p>
             <p>Oct</p>
@@ -109,7 +110,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+      
     </div>
+    
   )
 }
 

@@ -66,12 +66,12 @@ const Sidenav = () => {
             </NavLink><br />
 
             <div style={{ marginTop: openBar ? (window.innerWidth >= 1536 ? '240px' : '100px') : '0' }}>
-              <NavLink to='/signin'
+              <a href="Superadminsignin.jsx"
                 className={`flex items-center gap-4 font-[500] pl-2 `}
               >
                 <img className='size-8' src="./image/setting (3).png" alt="admin-image" />
                 <p className='text-[Avenir]'>Super Admin Log In</p>
-              </NavLink><br />
+              </a><br />
 
               <NavLink
                 className={`flex items-center gap-4 font-[500] pl-2 `}

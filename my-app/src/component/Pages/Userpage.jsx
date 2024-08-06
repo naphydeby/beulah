@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,14 +24,16 @@ const Userpage = () => {
       <div className=" flex justify-between items-center mt-4 2xl:px-10 font-[Avenir]">
 
         <h1 className="font-[800] text-[48px] text-black xl:pl-8 2xl:pl-0">Usher Raymond</h1>
-
+        <Link to='/membership' >
         <div className="flex items-center">
 
-          <div className="bg-gray-300 rounded-[360px] px-1 py-1 mt-3 mr-2 w-[25px] h-[25px]" >
+         <div className="bg-gray-300 rounded-[360px] px-1 py-1 mt-3 mr-2 w-[25px] h-[25px]" >
             <img src="./image/arrow (1).png" className="w-6 h-4 text-black" />
           </div>
-          <NavLink to='/membership' className="underline mt-3 xl:pr-4 2xl:pr-0">Back to Membership Applications </NavLink>
+          <p className="underline mt-3 xl:pr-4 2xl:pr-0" >Back to Membership Applications</p> 
+          
         </div>
+        </Link>
       </div>
 
       <div className='flex gap-4 xl:pl-8 2xl:pl-10  mt-4'>
