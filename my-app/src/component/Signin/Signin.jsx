@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Validation from "./Validation";
+import {  NavLink } from "react-router-dom";
 
 function Signin() {
   const [form, setForm] = useState({
@@ -36,10 +37,10 @@ function Signin() {
           </div>
           <br />
 
-          <div className="flex -mt-4 ">
+          <div className="flex  mt-4 xl:mt-12 ">
             
-            <p className="lg:w-[250px] xl:w-[300px] 2xl:w-[350px] border-[#e2e0e0] -ml-10  lg:h-[250px] xl:h-[300px] 2xl:h-[345px] mt-8 border-[1px] border-b-0  border-l-0 b bg-transparent rounded-[360px]"></p>
-            <p className="lg:w-[250px] xl:w-[300px] 2xl:w-[345px] border-[#e2e0e0] -ml-[40%] lg:h-[250px] xl:h-[300px] 2xl:h-[355px] border-[1px] border-b-0  border-l-0 b bg-transparent rounded-[355px]"></p> 
+            <p className="w-[280px] xl:w-[365px] 2xl:w-[350px] border-[#e2e0e0] -ml-10  h-[280px] xl:h-[365px] 2xl:h-[345px] mt-8 border-[1px] border-b-0  border-l-0 b bg-transparent rounded-[360px]"></p>
+            <p className="w-[265px] xl:w-[360px] 2xl:w-[345px] border-[#e2e0e0] mt-4  -ml-[50%] 2xl:-ml-[40%] xl:-ml-[55%]  h-[265px] xl:h-[375px] 2xl:h-[355px] border-[1px] border-b-0  border-l-0 b bg-transparent rounded-[355px]"></p> 
           </div>
         </div>
 
@@ -93,12 +94,12 @@ function Signin() {
               
             </p>
 
-          <a href="Membership">  <button
+           <button
               type="submit"
               className="w-[120px] h-[45px] text-[18px] pl-1 font-[800] mt-[20px] float-right bg-[#06476D] text-white rounded-[10px] "
             >
               Sign In
-            </button></a>
+            </button>
           </form>
         </div>
       </div>

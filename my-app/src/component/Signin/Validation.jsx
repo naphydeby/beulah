@@ -3,7 +3,7 @@ const Validation = (form) => {
     if (!form.username.trim()) {
       ValidationError.username = "username Required";
     }  else if (form.username.length < 5) {
-      ValidationError.password = " username must be atleast 5 characters";
+      ValidationError.username = " username must be atleast 5 characters";
     }
     if (!form.password.trim()) {
       ValidationError.password = "Password Required";
