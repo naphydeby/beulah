@@ -22,7 +22,7 @@ function Superadminsignin() {
   return (
     <>
      
-        <div className="w-[50vw] h-[530px]  mt-[40px] ml-[250px]  bg-white pt-[100px] lg:pt-[80px] px-[80px] rounded-[4px] ">
+        <div className="w-[50vw] h-[550px]  mt-[40px] ml-[250px]  bg-white pt-[100px] lg:pt-[80px] px-[80px] rounded-[4px] ">
           <h1 className="text-[32px] font-[800] font-[Avenir]">
             Welcome, Super Admin
           </h1>
