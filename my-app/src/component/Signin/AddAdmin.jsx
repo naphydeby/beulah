@@ -2,7 +2,7 @@ import { useState } from "react";
 import Validation from "./Validation";
 import {  NavLink } from "react-router-dom";
 
-function Superadminsignin() {
+function AddAdmin(){
   const [form, setForm] = useState({
     username: "",
     password: "",
@@ -19,15 +19,28 @@ function Superadminsignin() {
       alert("welcome");
     }
   };
-  return (
-    <>
-     
-        <div className="w-[50vw] h-[530px]  mt-[40px] ml-[250px]  bg-white pt-[100px] lg:pt-[80px] px-[80px] rounded-[4px] ">
-          <h1 className="text-[32px] font-[800] font-[Avenir]">
-            Welcome, Super Admin
-          </h1>
+  return(
+    <>    
+    <div className="lg:w-[80vw] xl:w-[80vw] 2xl:w-[80vw] h-[89vh] lg:ml-[20vw] xl:ml-[19vw] 2xl:ml-[20vw] lg:pt-[6vw] 2xl:pt-[6vw] lg:pl-6 xl:pl-8 2xl:pl-2 lg:pr-2 xl:pr-2 2xl:pr-0"> 
+    <div className=" flex justify-between items-center mt-4 lg:px-10 2xl:px-10 font-[Avenir]">
+
+        <h1 className="font-[800] lg:text-[38px] xl:text-[48px] 2xl:text-[48px] text-black xl:pl-8 2xl:pl-0">Add New Administrators</h1>
+        <NavLink to='/manageadmins' >
+        <div className="flex items-center">
+
+         <div className="bg-gray-300 rounded-[360px] px-1 py-1 mt-3 mr-2 w-[25px] h-[25px]" >
+            <img src="./image/arrow (1).png" className="w-6 h-4 text-black" />
+          </div>
+          <p className="underline mt-3 xl:pr-0 2xl:pr-0 lg:pr-0" >Back to Administrators Lists</p> 
+          
+        </div>
+        </NavLink>
+      </div>
+
+    <div className="w-[50vw] h-[530px]  mt-[40px]  ml-[40px]  bg-white pt-[80px] lg:pt-[60px] px-[80px] rounded-[4px] ">
+          
           <p className="text-[16px] font-[350] text-gray-400 mt-2">
-            Please enter your details
+            Enter mail of new admin and set new password  <br />for the admin
           </p>
           <form onSubmit={handleSubmit} action="" className="mt-[20px]">
             <div className="text-[17px] font-[600px]">
@@ -80,8 +93,9 @@ function Superadminsignin() {
             </button>
           </form>
         </div>
-      
+        </div>
+    
     </>
-  );
+  )
 }
-export default Superadminsignin;
+export default AddAdmin

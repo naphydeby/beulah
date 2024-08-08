@@ -249,7 +249,7 @@ const Userpage = () => {
 
             <div className="w-[100%] lg:h-[180px] xl:h-[170px] 2xl:h-[140px] border-2 border-[#EBEBEB] rounded-[8px] mt-8 text-[16px] font-[Avenir] ">
               <div className="flex items-center  h-[60px] pt-4 pl-4">
-                <img src="./calendar.png" className="w-[16px] h-[16px] mt-1  "  />
+                <img src="./image/calendar.png" className="w-[16px] h-[16px] mt-1  "  />
                 <p className="ml-2" >Today, 10:00AM</p>
                 <img src="./image/bin.png" className="w-[16px] h-[16px] mt-1 lg:ml-4 xl:ml-10 2xl:ml-[90px] " />
               </div><hr />
