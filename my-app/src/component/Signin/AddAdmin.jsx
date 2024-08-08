@@ -89,7 +89,7 @@ function AddAdmin(){
               type="submit"
               className="w-[120px] h-[45px] text-[18px] pl-1 font-[800] mt-[20px] float-right bg-[#06476D] text-white rounded-[10px] "
             >
-              Sign In
+              Create Admin
             </button>
           </form>
         </div>
