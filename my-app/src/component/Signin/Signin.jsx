@@ -35,14 +35,18 @@ function Signin() {
               Beaulah Destiny Club
             </p>
           </div>
-          <br />
-
-          <div className="flex  mt-4 xl:mt-12 ">
+         <div className=" h-auto "  >
+          <div  className=" w-[250px] h-[286px]  bg-transparent border-[1px]  mt-4 rounded-r-full rounded-b-[50px] border-b-transparent border-l-transparent " ></div>
+          <div  className=" w-[320px] h-[260px] bg-transparent border-[1px] mt-[-260px] rounded-r-full rounded-b-[50px] border-b-transparent border-l-transparent " ></div>
+         </div>
+     
+          {/* <div className="flex  mt-4 xl:mt-12 ">
             
             <p className="w-[280px] xl:w-[365px] 2xl:w-[350px] border-[#e2e0e0] -ml-10  h-[280px] xl:h-[365px] 2xl:h-[345px] mt-8 border-[1px] border-b-0  border-l-0 b bg-transparent rounded-[360px]"></p>
             <p className="w-[265px] xl:w-[360px] 2xl:w-[345px] border-[#e2e0e0] mt-4  -ml-[50%] 2xl:-ml-[40%] xl:-ml-[55%]  h-[265px] xl:h-[375px] 2xl:h-[355px] border-[1px] border-b-0  border-l-0 b bg-transparent rounded-[355px]"></p> 
-          </div>
-        </div>
+          </div> */}
+
+                  </div>
 
         <div className="w-[40vw] h-[100%] bg-white pt-[100px] px-[80px]">
           <h1 className="text-[32px] font-[800] font-[Avenir]">
