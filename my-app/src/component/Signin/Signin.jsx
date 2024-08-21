@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Validation from "./Validation";
-import {  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Signin() {
   const [form, setForm] = useState({
@@ -21,9 +21,9 @@ function Signin() {
   };
   return (
     <>
-      <div className="w-[100vw] h-[100vh]  flex  ">
+      <div className="w-[100vw] h-[100vh]  flex">
         <div
-          className="w-[60vw] h-[100%] pt-[21%]"
+          className="w-[60vw] h-[100%] flex flex-col justify-center"
           style={{
             background:
               "linear-gradient(180deg, #318ABE 0%,#0D4363 84.79%, #06344E 100%)",
@@ -35,13 +35,12 @@ function Signin() {
               Beaulah Destiny Club
             </p>
           </div>
-          <div className=" h-auto flex -ml-16 mt-6"  >
-          <div  className=" w-[400px] h-[230px]  bg-transparent border-[1px] mt-12 rounded-full rounded-b-none border-b-transparent " ></div>
-          <div  className=" w-[400px] h-[230px] bg-transparent border-[1px] ml-[-350px] mt-12  border-b-transparent   rounded-full rounded-b-none    " ></div>
-         </div>
 
-         
-                  </div>
+          <div className=" h-auto flex fixed -left-16 bottom-0">
+            <div className=" w-[400px] h-[230px]  bg-transparent border-[1px] mt-12 rounded-full rounded-b-none border-b-transparent "></div>
+            <div className=" w-[400px] h-[230px] bg-transparent border-[1px] ml-[-350px] mt-12  border-b-transparent   rounded-full rounded-b-none    "></div>
+          </div>
+        </div>
 
         <div className="w-[40vw] h-[100%] bg-white pt-[100px] px-[80px]">
           <h1 className="text-[32px] font-[800] font-[Avenir]">
@@ -88,12 +87,10 @@ function Signin() {
             </div>
             <p className="mt-[20px] text-[14px]">
               Don't remember Password?
-              
-                <b className="mt-1" >Reset here</b>
-              
+              <b className="mt-1">Reset here</b>
             </p>
 
-           <button
+            <button
               type="submit"
               className="w-[120px] h-[45px] text-[18px] pl-1 font-[800] mt-[20px] float-right bg-[#06476D] text-white rounded-[10px] "
             >
